@@ -1,0 +1,70 @@
+*, *:hover, *::before{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  /* Colors */
+
+  --pink-light: #C59DD2;
+  --pink-base: #9547A5;
+  --pink-dark: #7D298A;
+  --pink-low: #3F0F41;
+
+  --blue-light: #73B6D2;
+  --blue-base: #358BB9;
+  --blue-mid: #2374A4;
+  --blue-dark: #144A72;
+  --blue-low: #08233C;
+
+  --shape-stroke: #002347;
+  --shape-hover: #001933;
+  --shape-base: #000F1F;
+  --shape-bg: #00050A;
+
+  --text-title: #F8FBFB;
+  --text-body: #E2E7E9;
+  --text-label: #BAC6C9;
+
+  --ff-raleway: "Raleway", sans-serif;
+
+  --title-lg: 700 3rem var(--ff-raleway);
+  --title-md: 700 2.5rem var(--ff-raleway);
+  --title-sm: 700 2rem var(--ff-raleway);
+  --title-xs: 700 1rem var(--ff-raleway);
+
+  --title-lg-mobile: 700 1.75rem var(--ff-raleway);
+  --title-sm-mobile: 700 1.5rem var(--ff-raleway);
+
+  --subtitle: 500 2rem/2.0 var(--ff-raleway);
+
+  --body-lg: 1.25rem/1.4 var(--ff-raleway);
+  --body-md: 1rem/1.4 var(--ff-raleway);
+  --body-sm: .875rem/1.4 var(--ff-raleway);
+  --body-xs: .75rem/1.4 var(--ff-raleway);
+
+  --button: 700 .875 var(--ff-raleway);
+
+  --link: 500 .875 var(--ff-raleway);
+
+  /* latter spacing 5%*/
+  /* uppercase */
+  --tag: 700 .625rem var(--ff-raleway);
+
+
+}
+
+body{
+  background-color: #00050A;
+}
+
+h1{
+  font: var(--title-lg);
+  color: var(--text-title);
+}
+
+h2{
+  font: var(--title-sm);
+  color: var(--text-title);
+}
